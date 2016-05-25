@@ -14,7 +14,7 @@ if (file_exists($caRoot.'/vendor/autoload.php')) {
     exit(1);
 }
 
-use Legovaer\CoverageAnalysis\Application;
+use Legovaer\CoverageRunner\Application;
 
 $application = new Application();
 $application->run();

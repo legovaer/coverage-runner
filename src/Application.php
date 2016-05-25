@@ -1,6 +1,6 @@
 <?php
 
-namespace Legovaer\CoverageAnalysis;
+namespace Legovaer\CoverageRunner;
 
 use Legovaer\CoverageRunner\Command\AnalysisCommand;
 use Symfony\Component\Console\Application as BaseApplication;

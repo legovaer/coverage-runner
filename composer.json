@@ -12,7 +12,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/legovaer/coverage-analysis/issues"
+        "issues": "https://github.com/legovaer/coverage-runner/issues"
     },
     "require": {
         "php":                           ">=5.3.3",

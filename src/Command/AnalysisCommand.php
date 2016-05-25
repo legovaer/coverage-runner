@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Contains \Legovaer\CoverageRunner
+ * Contains \Legovaer\CoverageRunner\Command\AnalysisCommand
  */
 
 namespace Legovaer\CoverageRunner\Command;
