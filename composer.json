@@ -1,0 +1,32 @@
+{
+    "name": "legovaer/coverage-runner",
+    "description": "Allows you to check which code has been covered while executing one single PHP file",
+    "keywords": ["Coverage", "Analysis", "PHP", "Development", "Automation"],
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":  "Levi Govaerts",
+            "email": "legovaer@me.com",
+            "homepage": "http://legovaer.be"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/legovaer/coverage-analysis/issues"
+    },
+    "require": {
+        "php":                           ">=5.3.3",
+        "phpunit/php-code-coverage":     "^2",
+        "symfony/console":               "^2",
+        "symfony/filesystem":            "^2"
+    },
+    "bin": ["bin/coverage-runner"],
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
